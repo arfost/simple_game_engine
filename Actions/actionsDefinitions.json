@@ -1,0 +1,32 @@
+[
+    {
+        "name":"manger",
+        "desc":"une action qui permet de manger",
+        "filtres":[
+            {
+                "type":"checkEtatPresent",
+                "params":[
+                    "faim"
+                ]
+            }
+        ],
+        "actionCondtions":[
+            {
+                "type":"random",
+                "params":{
+                    "probability":75
+                }
+            }
+
+        ],
+        "actionResultsSuccess":[
+            {
+                "type":"addEtat",
+                "params":{
+                    "etat":"mange"
+                }
+            }
+        ],
+        "actionResultsFail":[]
+    }
+]

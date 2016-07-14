@@ -1,0 +1,20 @@
+{
+  "name": "simple_game_engine",
+  "version": "0.0.1",
+  "description": "Un petit moteur de gameplay configurable et extensible pour faire des jeux.",
+  "main": "app.js",
+  "scripts": {
+    "test": "tests.js"
+  },
+  "keywords": [
+    "game",
+    "extensible",
+    "blue"
+  ],
+  "author": "clement chevalier",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "scribe-js": "^2.0.4"
+  }
+}
